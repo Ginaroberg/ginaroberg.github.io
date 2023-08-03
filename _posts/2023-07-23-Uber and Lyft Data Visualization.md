@@ -7,7 +7,7 @@ skills: [D3.js, HTML, CSS, JavaScript ]     # TAG names should always be lowerca
 
 toc: true
 ---
-https://ginaroberg.github.io/Recipes-and-Reviews-Data-Analysis/
+<!-- https://ginaroberg.github.io/Recipes-and-Reviews-Data-Analysis/
 <object data="../assets/Final Project/index.html" width="800" height="800" type='application/pdf'></object>
-assets/Final Project/index.html
+assets/Final Project/index.html -->
 ### Recipes Project
