@@ -2,7 +2,7 @@
 title: Uber and Lyft Data Visualization
 date: 2023-06-21 00:00:00 +/-TTTT
 categories: []
-tags: [D3.js, HTML, CSS, JavaScript ]     # TAG names should always be lowercase
+skills: [D3.js, HTML, CSS, JavaScript ]     # TAG names should always be lowercase
 
 
 toc: true

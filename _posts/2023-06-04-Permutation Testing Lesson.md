@@ -2,7 +2,7 @@
 title: Permutation Testing Lesson
 date: 2023-06-04 00:00:00 +/-TTTT
 categories: []
-tags: [Python, Pandas, Permutation Testing, Teaching, Public Speaking]     # TAG names should always be lowercase
+skills: [Python, Pandas, Permutation Testing, Teaching, Public Speaking]     # TAG names should always be lowercase
 
 toc: true
 ---
