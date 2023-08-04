@@ -4,7 +4,7 @@
     "title": "Uber and Lyft Data Visualization",
     "url": "/posts/Uber-and-Lyft-Data-Visualization/",
     "categories": "",
-    "tags": "",
+    "tags": "D3.js, HTML, CSS, JavaScript",
     "date": "2023-06-21 00:00:00 -0700",
     
 
@@ -21,7 +21,7 @@
     "title": "Recipe and Ratings Prediction Model",
     "url": "/posts/Recipe-and-Ratings-Prediction-Model/",
     "categories": "",
-    "tags": "",
+    "tags": "Python, Pandas, Machine Learning, Hypothesis Testing",
     "date": "2023-06-21 00:00:00 -0700",
     
 
@@ -35,10 +35,10 @@
   },
   
   {
-    "title": "Recipe and Ratings Data",
+    "title": "Recipe and Ratings Data Analysis",
     "url": "/posts/Recipe-and-Ratings-Data-Analysis/",
     "categories": "",
-    "tags": "",
+    "tags": "Python, Pandas, Machine Learning, Hypothesis Testing",
     "date": "2023-06-21 00:00:00 -0700",
     
 
@@ -55,7 +55,7 @@
     "title": "Permutation Testing Lesson",
     "url": "/posts/Permutation-Testing-Lesson/",
     "categories": "",
-    "tags": "",
+    "tags": "Python, Pandas, Permutation Testing, Teaching, Public Speaking",
     "date": "2023-06-04 00:00:00 -0700",
     
 
@@ -64,8 +64,8 @@
 
 
     
-    "snippet": "As s tutor for the DSC 10: Principles of Data Science course, during the Spring 2023 quarter, I created this video as a supplemental resource for the students to prepare for the final.  In this vid...",
-    "content": "As s tutor for the DSC 10: Principles of Data Science course, during the Spring 2023 quarter, I created this video as a supplemental resource for the students to prepare for the final.  In this video, I go over the basics of permutation testing, clarify common misconceptions, and perform a live coding demonstration with an example I created from a data set I found from Kaggle."
+    "snippet": "As a tutor for the DSC 10: Principles of Data Science course, during the Spring 2023 quarter, I created this video as a supplemental resource for the students to prepare for the final exam.  In thi...",
+    "content": "As a tutor for the DSC 10: Principles of Data Science course, during the Spring 2023 quarter, I created this video as a supplemental resource for the students to prepare for the final exam.  In this video, I go over the basics of permutation testing, clarify common misconceptions, and perform a live coding demonstration with an example I created from a data set I found from Kaggle."
   }
   
 ]

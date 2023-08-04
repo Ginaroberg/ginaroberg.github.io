@@ -2,7 +2,7 @@
 title: Recipe and Ratings Prediction Model
 date: 2023-06-21 00:00:00 +/-TTTT
 categories: []
-skills: [Python, Pandas, Machine Learning, Hypothesis Testing]     # TAG names should always be lowercase
+tags: [Python, Pandas, Machine Learning, Hypothesis Testing]     # TAG names should always be lowercase
 toc: true
 ---
 
