@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Gina Roberg</title>
   <subtitle>A personal portfolio of my previous projects.</subtitle>
-  <updated>2023-08-04T12:47:32-07:00</updated>
+  <updated>2023-08-04T12:52:26-07:00</updated>
   <author>
     <name>Gina Roberg</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/Uber-and-Lyft-Data-Visualization/" rel="alternate" type="text/html" title="Uber and Lyft Data Visualization" />
     <published>2023-06-21T00:00:00-07:00</published>
   
-    <updated>2023-08-03T00:21:59-07:00</updated>
+    <updated>2023-08-04T12:48:34-07:00</updated>
   
     <id>http://localhost:4000/posts/Uber-and-Lyft-Data-Visualization/</id>
     <content src="http://localhost:4000/posts/Uber-and-Lyft-Data-Visualization/" />
@@ -58,7 +58,7 @@ Recipes Project
     <link href="http://localhost:4000/posts/Recipe-and-Ratings-Prediction-Model/" rel="alternate" type="text/html" title="Recipe and Ratings Prediction Model" />
     <published>2023-06-21T00:00:00-07:00</published>
   
-    <updated>2023-08-03T00:20:36-07:00</updated>
+    <updated>2023-08-04T12:48:34-07:00</updated>
   
     <id>http://localhost:4000/posts/Recipe-and-Ratings-Prediction-Model/</id>
     <content src="http://localhost:4000/posts/Recipe-and-Ratings-Prediction-Model/" />
@@ -93,7 +93,7 @@ Recipes Project
     <link href="http://localhost:4000/posts/Recipe-and-Ratings-Data-Analysis/" rel="alternate" type="text/html" title="Recipe and Ratings Data Analysis" />
     <published>2023-06-21T00:00:00-07:00</published>
   
-    <updated>2023-08-03T00:20:36-07:00</updated>
+    <updated>2023-08-04T12:48:34-07:00</updated>
   
     <id>http://localhost:4000/posts/Recipe-and-Ratings-Data-Analysis/</id>
     <content src="http://localhost:4000/posts/Recipe-and-Ratings-Data-Analysis/" />
@@ -128,7 +128,7 @@ Recipes Project
     <link href="http://localhost:4000/posts/Permutation-Testing-Lesson/" rel="alternate" type="text/html" title="Permutation Testing Lesson" />
     <published>2023-06-04T00:00:00-07:00</published>
   
-    <updated>2023-08-03T00:20:36-07:00</updated>
+    <updated>2023-08-04T12:48:34-07:00</updated>
   
     <id>http://localhost:4000/posts/Permutation-Testing-Lesson/</id>
     <content src="http://localhost:4000/posts/Permutation-Testing-Lesson/" />
