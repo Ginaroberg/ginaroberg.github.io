@@ -15,7 +15,7 @@ const resource = [
     
         '/experience/',
     
-        '/skills/',
+        '/tags/',
     
         '/projects/',
     
@@ -45,7 +45,7 @@ const resource = [
 const allowedDomains = [
     
 
-    'ginaroberg.github.io/',
+    'localhost:4000',
 
     
 

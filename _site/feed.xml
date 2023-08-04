@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://ginaroberg.github.io//</id>
+  <id>http://localhost:4000/</id>
   <title>Gina Roberg</title>
   <subtitle>A personal portfolio of my previous projects.</subtitle>
-  <updated>2023-08-04T12:54:25-07:00</updated>
+  <updated>2023-08-04T12:56:28-07:00</updated>
   <author>
     <name>Gina Roberg</name>
-    <uri>https://ginaroberg.github.io//</uri>
+    <uri>http://localhost:4000/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="https://ginaroberg.github.io//feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="https://ginaroberg.github.io//"/>
+    href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
   <rights> © 2023 Gina Roberg </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>Uber and Lyft Data Visualization</title>
-    <link href="https://ginaroberg.github.io//posts/Uber-and-Lyft-Data-Visualization/" rel="alternate" type="text/html" title="Uber and Lyft Data Visualization" />
+    <link href="http://localhost:4000/posts/Uber-and-Lyft-Data-Visualization/" rel="alternate" type="text/html" title="Uber and Lyft Data Visualization" />
     <published>2023-06-21T00:00:00-07:00</published>
   
     <updated>2023-08-04T12:48:34-07:00</updated>
   
-    <id>https://ginaroberg.github.io//posts/Uber-and-Lyft-Data-Visualization/</id>
-    <content src="https://ginaroberg.github.io//posts/Uber-and-Lyft-Data-Visualization/" />
+    <id>http://localhost:4000/posts/Uber-and-Lyft-Data-Visualization/</id>
+    <content src="http://localhost:4000/posts/Uber-and-Lyft-Data-Visualization/" />
     <author>
       <name>Gina Roberg</name>
     </author>
@@ -55,13 +55,13 @@ Recipes Project
   
   <entry>
     <title>Recipe and Ratings Prediction Model</title>
-    <link href="https://ginaroberg.github.io//posts/Recipe-and-Ratings-Prediction-Model/" rel="alternate" type="text/html" title="Recipe and Ratings Prediction Model" />
+    <link href="http://localhost:4000/posts/Recipe-and-Ratings-Prediction-Model/" rel="alternate" type="text/html" title="Recipe and Ratings Prediction Model" />
     <published>2023-06-21T00:00:00-07:00</published>
   
     <updated>2023-08-04T12:48:34-07:00</updated>
   
-    <id>https://ginaroberg.github.io//posts/Recipe-and-Ratings-Prediction-Model/</id>
-    <content src="https://ginaroberg.github.io//posts/Recipe-and-Ratings-Prediction-Model/" />
+    <id>http://localhost:4000/posts/Recipe-and-Ratings-Prediction-Model/</id>
+    <content src="http://localhost:4000/posts/Recipe-and-Ratings-Prediction-Model/" />
     <author>
       <name>Gina Roberg</name>
     </author>
@@ -90,13 +90,13 @@ Recipes Project
   
   <entry>
     <title>Recipe and Ratings Data Analysis</title>
-    <link href="https://ginaroberg.github.io//posts/Recipe-and-Ratings-Data-Analysis/" rel="alternate" type="text/html" title="Recipe and Ratings Data Analysis" />
+    <link href="http://localhost:4000/posts/Recipe-and-Ratings-Data-Analysis/" rel="alternate" type="text/html" title="Recipe and Ratings Data Analysis" />
     <published>2023-06-21T00:00:00-07:00</published>
   
     <updated>2023-08-04T12:48:34-07:00</updated>
   
-    <id>https://ginaroberg.github.io//posts/Recipe-and-Ratings-Data-Analysis/</id>
-    <content src="https://ginaroberg.github.io//posts/Recipe-and-Ratings-Data-Analysis/" />
+    <id>http://localhost:4000/posts/Recipe-and-Ratings-Data-Analysis/</id>
+    <content src="http://localhost:4000/posts/Recipe-and-Ratings-Data-Analysis/" />
     <author>
       <name>Gina Roberg</name>
     </author>
@@ -125,13 +125,13 @@ Recipes Project
   
   <entry>
     <title>Permutation Testing Lesson</title>
-    <link href="https://ginaroberg.github.io//posts/Permutation-Testing-Lesson/" rel="alternate" type="text/html" title="Permutation Testing Lesson" />
+    <link href="http://localhost:4000/posts/Permutation-Testing-Lesson/" rel="alternate" type="text/html" title="Permutation Testing Lesson" />
     <published>2023-06-04T00:00:00-07:00</published>
   
     <updated>2023-08-04T12:48:34-07:00</updated>
   
-    <id>https://ginaroberg.github.io//posts/Permutation-Testing-Lesson/</id>
-    <content src="https://ginaroberg.github.io//posts/Permutation-Testing-Lesson/" />
+    <id>http://localhost:4000/posts/Permutation-Testing-Lesson/</id>
+    <content src="http://localhost:4000/posts/Permutation-Testing-Lesson/" />
     <author>
       <name>Gina Roberg</name>
     </author>
