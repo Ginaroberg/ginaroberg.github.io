@@ -6,7 +6,7 @@ tags: [D3.js, HTML, CSS, JavaScript]
 
 image:
   path: /assets/img/uberlyft.jpg
-  alt: Uber Lyft Visualization Sample
+  alt: Uber Lyft Logo
 
 
 toc: true

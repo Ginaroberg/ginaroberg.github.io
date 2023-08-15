@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Gina Roberg</title>
   <subtitle>A personal portfolio of my previous projects.</subtitle>
-  <updated>2023-08-07T22:53:22-07:00</updated>
+  <updated>2023-08-15T15:23:31-07:00</updated>
   <author>
     <name>Gina Roberg</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/Uber-and-Lyft-Data-Visualization/" rel="alternate" type="text/html" title="Uber and Lyft Data Visualization" />
     <published>2023-06-21T00:00:00-07:00</published>
   
-    <updated>2023-08-04T12:48:34-07:00</updated>
+    <updated>2023-08-07T22:54:29-07:00</updated>
   
     <id>http://localhost:4000/posts/Uber-and-Lyft-Data-Visualization/</id>
     <content src="http://localhost:4000/posts/Uber-and-Lyft-Data-Visualization/" />

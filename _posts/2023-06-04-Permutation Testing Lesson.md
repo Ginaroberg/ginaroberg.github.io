@@ -4,6 +4,12 @@ date: 2023-06-04 00:00:00 +/-TTTT
 categories: []
 tags: [Python, Pandas, Permutation Testing, Teaching, Public Speaking]     # TAG names should always be lowercase
 
+image:
+  path: /assets/img/permutationvid.png
+  alt: Permutation Video Screenshot
+
+
+
 toc: true
 ---
 
