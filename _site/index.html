@@ -14,12 +14,8 @@
 
 
 <!-- `site.alt_lang` can specify a language different from the UI -->
-<html lang="en" 
-  
->
-  <!-- The Head -->
-
-<head>
+<html lang="en" >
+  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1e">
@@ -28,30 +24,26 @@
   <meta
     name="viewport"
     content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
-  >
+  ><!-- Setup Open Graph image -->
 
   
 
-  
-
-  
-    <!-- Begin Jekyll SEO tag v2.8.0 -->
-<meta name="generator" content="Jekyll v4.3.2" />
+  <!-- Begin Jekyll SEO tag v2.9.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Gina Roberg" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="A personal portfolio of my previous projects." />
-<meta property="og:description" content="A personal portfolio of my previous projects." />
+<meta name="twitter:description" property="og:description" content="A personal portfolio of my previous projects." />
 <link rel="canonical" href="http://localhost:4000/" />
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Gina Roberg" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Gina Roberg" />
+<meta name="twitter:title" content="Gina Roberg" />
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","description":"A personal portfolio of my previous projects.","headline":"Gina Roberg","name":"Gina Roberg","sameAs":["https://github.com/Ginaroberg","https://www.facebook.com/username","https://www.linkedin.com/in/gina-roberg/"],"url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
-  
 
   <title>Gina Roberg
   </title>
@@ -66,7 +58,9 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png">
-<link rel="manifest" href="/assets/img/favicons/site.webmanifest">
+
+  <link rel="manifest" href="/assets/img/favicons/site.webmanifest">
+
 <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">
 <meta name="apple-mobile-web-app-title" content="Gina Roberg">
 <meta name="application-name" content="Gina Roberg">
@@ -89,6 +83,9 @@
       <link rel="preconnect" href="https://cdn.jsdelivr.net" >
       <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" >
     
+      <link rel="preconnect" href="https://cdnjs.cloudflare.com" >
+      <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" >
+    
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro:wght@400;600;700;900&display=swap">
   
@@ -97,13 +94,17 @@
   
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
 
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.css">
 
+  
+
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
   
 
   
@@ -265,78 +266,74 @@
   <body>
     <!-- The Side Bar -->
 
-<div id="sidebar" class="d-flex flex-column align-items-end">
-  <div class="profile-wrapper">
-    <a href="/" id="avatar" class="rounded-circle">
-      
-        
-        <img src="/assets/gina.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
-      
-    </a>
+<aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
+  <header class="profile-wrapper">
+    <a href="/" id="avatar" class="rounded-circle"><img src="/assets/gina.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
 
-    <div class="site-title">
+    <h1 class="site-title">
       <a href="/">Gina Roberg</a>
-    </div>
-    <div class="site-subtitle fst-italic">Data Science Student</div>
-  </div>
+    </h1>
+    <p class="site-subtitle fst-italic mb-0">Data Science Student</p>
+  </header>
   <!-- .profile-wrapper -->
 
-  <ul class="nav flex-column flex-grow-1 w-100 ps-0">
-    <!-- home -->
-    <li class="nav-item active">
-      <a href="/" class="nav-link">
-        <i class="fa-fw fas fa-home"></i>
-        <span>HOME</span>
-      </a>
-    </li>
-    <!-- the real tabs -->
-    
-      <li class="nav-item">
-        <a href="/about/" class="nav-link">
-          <i class="fa-fw fas fa-info-circle"></i>
-          
-
-          <span>ABOUT</span>
+  <nav class="flex-column flex-grow-1 w-100 ps-0">
+    <ul class="nav">
+      <!-- home -->
+      <li class="nav-item active">
+        <a href="/" class="nav-link">
+          <i class="fa-fw fas fa-home"></i>
+          <span>HOME</span>
         </a>
       </li>
-      <!-- .nav-item -->
-    
-      <li class="nav-item">
-        <a href="/tags/" class="nav-link">
-          <i class="fa-fw fas fa-computer"></i>
-          
+      <!-- the real tabs -->
+      
+        <li class="nav-item">
+          <a href="/about/" class="nav-link">
+            <i class="fa-fw fas fa-info-circle"></i>
+            
 
-          <span>TAGS</span>
-        </a>
-      </li>
-      <!-- .nav-item -->
-    
-      <li class="nav-item">
-        <a href="/projects/" class="nav-link">
-          <i class="fa-fw fas fa-pencil"></i>
-          
+            <span>ABOUT</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/tags/" class="nav-link">
+            <i class="fa-fw fas fa-computer"></i>
+            
 
-          <span>PROJECTS</span>
-        </a>
-      </li>
-      <!-- .nav-item -->
-    
-      <li class="nav-item">
-        <a href="/resume/" class="nav-link">
-          <i class="fa-fw fas fa-file"></i>
-          
+            <span>TAGS</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/projects/" class="nav-link">
+            <i class="fa-fw fas fa-pencil"></i>
+            
 
-          <span>RESUME</span>
-        </a>
-      </li>
-      <!-- .nav-item -->
-    
-  </ul>
-  <!-- ul.nav.flex-column -->
+            <span>PROJECTS</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/resume/" class="nav-link">
+            <i class="fa-fw fas fa-file"></i>
+            
+
+            <span>RESUME</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+    </ul>
+  </nav>
 
   <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
     
-      <button class="mode-toggle btn" aria-label="Switch Mode">
+      <button type="button" class="mode-toggle btn" aria-label="Switch Mode">
         <i class="fas fa-adjust"></i>
       </button>
 
@@ -412,20 +409,20 @@
     
   </div>
   <!-- .sidebar-bottom -->
-</div>
+</aside>
 <!-- #sidebar -->
 
 
     <div id="main-wrapper" class="d-flex justify-content-center">
-      <div id="main" class="container px-xxl-5">
+      <div class="container d-flex flex-column px-xxl-5">
         <!-- The Top Bar -->
 
-<div id="topbar-wrapper">
+<header id="topbar-wrapper" aria-label="Top Bar">
   <div
     id="topbar"
-    class="container d-flex align-items-center justify-content-between h-100"
+    class="d-flex align-items-center justify-content-between px-lg-3 h-100"
   >
-    <span id="breadcrumb">
+    <nav id="breadcrumb" aria-label="Breadcrumb">
       
 
       
@@ -433,17 +430,22 @@
         <span>Home</span>
 
       
-    </span>
+    </nav>
     <!-- endof #breadcrumb -->
 
-    <i id="sidebar-trigger" class="fas fa-bars fa-fw"></i>
+    <button type="button" id="sidebar-trigger" class="btn btn-link">
+      <i class="fas fa-bars fa-fw"></i>
+    </button>
 
     <div id="topbar-title">
       Gina Roberg
     </div>
 
-    <i id="search-trigger" class="fas fa-search fa-fw"></i>
-    <span id="search-wrapper" class="align-items-center">
+    <button type="button" id="search-trigger" class="btn btn-link">
+      <i class="fas fa-search fa-fw"></i>
+    </button>
+
+    <search class="align-items-center ms-3 ms-lg-0">
       <i class="fas fa-search fa-fw"></i>
       <input
         class="form-control"
@@ -453,35 +455,16 @@
         autocomplete="off"
         placeholder="Search..."
       >
-    </span>
-    <span id="search-cancel">Cancel</span>
+    </search>
+    <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">Cancel</button>
   </div>
-</div>
-
-        
+</header>
 
 
-
-
-
-
-
-
-
-
-
-<div class="row mb-5">
-  <!-- core -->
-  <div id="core-wrapper" class="col-12 col-lg-11 col-xl-9 pe-xl-4">
-    
-
-    <div class="post  px-md-2">
-      
-
-      
-        
-      
-        <!-- Refactor the HTML structure -->
+        <div class="row flex-grow-1">
+          <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              <!-- Refactor the HTML structure -->
 
 
 
@@ -503,17 +486,13 @@
 <!-- Change the icon of checkbox -->
 
 
-<!-- images -->
+
+<!-- Handle images -->
+
 
 
 
   
-  
-
-  <!-- CDN URL -->
-  
-
-  <!-- Add image path -->
   
 
   
@@ -533,24 +512,7 @@
     
     
     
-    
 
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
     
       
 
@@ -573,35 +535,28 @@
     
 
     
-
     
 
     
 
-    <!-- lazy-load images <https://github.com/aFarkas/lazysizes#readme> -->
     
-    
-
-    <!-- add image placeholder -->
-    
-      
-        <!-- add SVG placehoder -->
-        
       
     
 
-    <!-- Bypass the HTML-proofer test -->
+    <!-- lazy-load images -->
     
 
     
       <!-- create the image wrapper -->
       
 
+      
+      
+
     
 
     <!-- combine -->
     
-
   
     
 
@@ -616,24 +571,7 @@
     
     
     
-    
 
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
     
       
 
@@ -656,35 +594,28 @@
     
 
     
-
     
 
     
 
-    <!-- lazy-load images <https://github.com/aFarkas/lazysizes#readme> -->
     
-    
-
-    <!-- add image placeholder -->
-    
-      
-        <!-- add SVG placehoder -->
-        
       
     
 
-    <!-- Bypass the HTML-proofer test -->
+    <!-- lazy-load images -->
     
 
     
       <!-- create the image wrapper -->
       
 
+      
+      
+
     
 
     <!-- combine -->
     
-
   
     
 
@@ -699,24 +630,7 @@
     
     
     
-    
 
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
     
       
 
@@ -739,35 +653,28 @@
     
 
     
-
     
 
     
 
-    <!-- lazy-load images <https://github.com/aFarkas/lazysizes#readme> -->
     
-    
-
-    <!-- add image placeholder -->
-    
-      
-        <!-- add SVG placehoder -->
-        
       
     
 
-    <!-- Bypass the HTML-proofer test -->
+    <!-- lazy-load images -->
     
 
     
       <!-- create the image wrapper -->
       
 
+      
+      
+
     
 
     <!-- combine -->
     
-
   
     
 
@@ -782,24 +689,7 @@
     
     
     
-    
 
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
     
       
 
@@ -822,39 +712,31 @@
     
 
     
-
     
 
     
 
-    <!-- lazy-load images <https://github.com/aFarkas/lazysizes#readme> -->
     
-    
-
-    <!-- add image placeholder -->
-    
-      
-        <!-- add SVG placehoder -->
-        
       
     
 
-    <!-- Bypass the HTML-proofer test -->
+    <!-- lazy-load images -->
     
 
     
       <!-- create the image wrapper -->
       
 
+      
+      
+
     
 
     <!-- combine -->
     
-
   
 
   
-
 
 
 <!-- Add header for code snippets -->
@@ -918,48 +800,55 @@
 
 
 
-<div id="post-list">
+<div id="post-list" class="flex-grow-1 px-xl-1">
   
-    <a href="/posts/Uber-and-Lyft-Data-Visualization/" class="card-wrapper">
-      <div class="card post-preview flex-md-row-reverse">
-        
-          
-
-          
-          
-
-          
-
-          <div class="preview-img shimmer"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 17 10'%3E%3C/svg%3E" data-src="/assets/img/uberlyft.jpg" width="17" height="10" alt="Uber Lyft Logo"  class="lazyload" data-proofer-ignore></div>
+    <article class="card-wrapper card">
+      <a href="/posts/Uber-and-Lyft-Data-Visualization/" class="post-preview row g-0 flex-md-row-reverse">
         
 
-        <div class="card-body d-flex flex-column">
-          <h1 class="card-title my-2 mt-md-0">
-            Uber and Lyft Data Visualization
-          </h1>
+        
+          
+          
 
-          <div class="card-text post-content mt-0 mb-2">
-            <p>
-              
+          
 
+          
 
+          
 
-
-
-               Link to site
-
-
-
-
-
-            </p>
+          <div class="col-md-5">
+            <div class="preview-img  shimmer"><img src="/assets/img/uberlyft.jpg" alt="Uber Lyft Logo"  loading="lazy"></div>
           </div>
 
-          <div class="post-meta flex-grow-1 d-flex align-items-end">
-            <div class="me-auto">
-              <!-- posted date -->
-              <i class="far fa-calendar fa-fw me-1"></i>
-              <!--
+          
+        
+
+        <div class="col-md-7">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">Uber and Lyft Data Visualization</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>
+                
+
+
+
+
+
+                 Link to site
+
+
+
+
+
+              </p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -967,67 +856,74 @@
 
 
 
-
-<em
-  class=""
+<time
+  
   data-ts="1687330800"
   data-df="ll"
   
 >
   Jun 21, 2023
-</em>
+</time>
 
 
-              <!-- categories -->
+                <!-- categories -->
+                
+              </div>
+
               
             </div>
-
-            
+            <!-- .post-meta -->
           </div>
-          <!-- .post-meta -->
+          <!-- .card-body -->
         </div>
-        <!-- .card-body -->
-      </div>
-    </a>
+      </a>
+    </article>
   
-    <a href="/posts/Recipe-and-Ratings-Prediction-Model/" class="card-wrapper">
-      <div class="card post-preview flex-md-row-reverse">
-        
-          
-
-          
-          
-
-          
-
-          <div class="preview-img shimmer"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 17 10'%3E%3C/svg%3E" data-src="/assets/img/recipes1.jpeg" width="17" height="10" alt="Recipes Image"  class="lazyload" data-proofer-ignore></div>
+    <article class="card-wrapper card">
+      <a href="/posts/Recipe-and-Ratings-Prediction-Model/" class="post-preview row g-0 flex-md-row-reverse">
         
 
-        <div class="card-body d-flex flex-column">
-          <h1 class="card-title my-2 mt-md-0">
-            Recipe and Ratings Prediction Model
-          </h1>
+        
+          
+          
 
-          <div class="card-text post-content mt-0 mb-2">
-            <p>
-              
+          
 
+          
 
+          
 
-
-
-               Link to site
-
-
-
-            </p>
+          <div class="col-md-5">
+            <div class="preview-img  shimmer"><img src="/assets/img/recipes1.jpeg" alt="Recipes Image"  loading="lazy"></div>
           </div>
 
-          <div class="post-meta flex-grow-1 d-flex align-items-end">
-            <div class="me-auto">
-              <!-- posted date -->
-              <i class="far fa-calendar fa-fw me-1"></i>
-              <!--
+          
+        
+
+        <div class="col-md-7">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">Recipe and Ratings Prediction Model</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>
+                
+
+
+
+
+
+                 Link to site
+
+
+
+              </p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -1035,67 +931,74 @@
 
 
 
-
-<em
-  class=""
+<time
+  
   data-ts="1687330800"
   data-df="ll"
   
 >
   Jun 21, 2023
-</em>
+</time>
 
 
-              <!-- categories -->
+                <!-- categories -->
+                
+              </div>
+
               
             </div>
-
-            
+            <!-- .post-meta -->
           </div>
-          <!-- .post-meta -->
+          <!-- .card-body -->
         </div>
-        <!-- .card-body -->
-      </div>
-    </a>
+      </a>
+    </article>
   
-    <a href="/posts/Recipe-and-Ratings-Data-Analysis/" class="card-wrapper">
-      <div class="card post-preview flex-md-row-reverse">
-        
-          
-
-          
-          
-
-          
-
-          <div class="preview-img shimmer"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 17 10'%3E%3C/svg%3E" data-src="/assets/img/recipes2.jpg" width="17" height="10" alt="Recipes Image"  class="lazyload" data-proofer-ignore></div>
+    <article class="card-wrapper card">
+      <a href="/posts/Recipe-and-Ratings-Data-Analysis/" class="post-preview row g-0 flex-md-row-reverse">
         
 
-        <div class="card-body d-flex flex-column">
-          <h1 class="card-title my-2 mt-md-0">
-            Recipe and Ratings Data Analysis
-          </h1>
+        
+          
+          
 
-          <div class="card-text post-content mt-0 mb-2">
-            <p>
-              
+          
 
+          
 
+          
 
-
-
-               Link to site
-
-
-
-            </p>
+          <div class="col-md-5">
+            <div class="preview-img  shimmer"><img src="/assets/img/recipes2.jpg" alt="Recipes Image"  loading="lazy"></div>
           </div>
 
-          <div class="post-meta flex-grow-1 d-flex align-items-end">
-            <div class="me-auto">
-              <!-- posted date -->
-              <i class="far fa-calendar fa-fw me-1"></i>
-              <!--
+          
+        
+
+        <div class="col-md-7">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">Recipe and Ratings Data Analysis</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>
+                
+
+
+
+
+
+                 Link to site
+
+
+
+              </p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -1103,64 +1006,71 @@
 
 
 
-
-<em
-  class=""
+<time
+  
   data-ts="1687330800"
   data-df="ll"
   
 >
   Jun 21, 2023
-</em>
+</time>
 
 
-              <!-- categories -->
+                <!-- categories -->
+                
+              </div>
+
               
             </div>
-
-            
+            <!-- .post-meta -->
           </div>
-          <!-- .post-meta -->
+          <!-- .card-body -->
         </div>
-        <!-- .card-body -->
-      </div>
-    </a>
+      </a>
+    </article>
   
-    <a href="/posts/Permutation-Testing-Lesson/" class="card-wrapper">
-      <div class="card post-preview flex-md-row-reverse">
-        
-          
-
-          
-          
-
-          
-
-          <div class="preview-img shimmer"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 17 10'%3E%3C/svg%3E" data-src="/assets/img/permutationvid.png" width="17" height="10" alt="Permutation Video Screenshot"  class="lazyload" data-proofer-ignore></div>
+    <article class="card-wrapper card">
+      <a href="/posts/Permutation-Testing-Lesson/" class="post-preview row g-0 flex-md-row-reverse">
         
 
-        <div class="card-body d-flex flex-column">
-          <h1 class="card-title my-2 mt-md-0">
-            Permutation Testing Lesson
-          </h1>
+        
+          
+          
 
-          <div class="card-text post-content mt-0 mb-2">
-            <p>
-              
+          
 
+          
 
+          
 
-
-
-              As a tutor for the DSC 10: Principles of Data Science course, during the Spring 2023 quarter, I created this video as a supplemental resource for the students to prepare for the final exam.  In thi...
-            </p>
+          <div class="col-md-5">
+            <div class="preview-img  shimmer"><img src="/assets/img/permutationvid.png" alt="Permutation Video Screenshot"  loading="lazy"></div>
           </div>
 
-          <div class="post-meta flex-grow-1 d-flex align-items-end">
-            <div class="me-auto">
-              <!-- posted date -->
-              <i class="far fa-calendar fa-fw me-1"></i>
-              <!--
+          
+        
+
+        <div class="col-md-7">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">Permutation Testing Lesson</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>
+                
+
+
+
+
+
+                As a tutor for the DSC 10: Principles of Data Science course, during the Spring 2023 quarter, I created this video as a supplemental resource for the students to prepare for the final exam.  In thi...
+              </p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -1168,28 +1078,28 @@
 
 
 
-
-<em
-  class=""
+<time
+  
   data-ts="1685862000"
   data-df="ll"
   
 >
   Jun  4, 2023
-</em>
+</time>
 
 
-              <!-- categories -->
+                <!-- categories -->
+                
+              </div>
+
               
             </div>
-
-            
+            <!-- .post-meta -->
           </div>
-          <!-- .post-meta -->
+          <!-- .card-body -->
         </div>
-        <!-- .card-body -->
-      </div>
-    </a>
+      </a>
+    </article>
   
 </div>
 <!-- #post-list -->
@@ -1197,17 +1107,13 @@
 
 
 
-      
-    
-      
-    </div>
-  </div>
-  <!-- #core-wrapper -->
+            
+          </main>
 
-  <!-- panel -->
-  <div id="panel-wrapper" class="col-xl-3 ps-2 text-muted">
-    <div class="access">
-      <!-- Get the last 5 posts from lastmod list. -->
+          <!-- panel -->
+          <aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 mb-5 text-muted">
+            <div class="access">
+              <!-- Get 5 last posted/updated posts -->
 
 
 
@@ -1222,9 +1128,9 @@
 
 
 
-  <div id="access-lastmod" class="post">
-    <div class="panel-heading">Recently Updated</div>
-    <ul class="post-content list-unstyled ps-0 pb-1 ms-1 mt-2">
+  <section id="access-lastmod">
+    <h2 class="panel-heading">Recently Updated</h2>
+    <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
       
         
         
@@ -1255,11 +1161,11 @@
         </li>
       
     </ul>
-  </div>
+  </section>
   <!-- #access-lastmod -->
 
 
-      <!-- The trending tags list -->
+              <!-- The trending tags list -->
 
 
 
@@ -1626,8 +1532,8 @@
 
 
 
-  <div id="access-tags">
-    <div class="panel-heading">Trending Tags</div>
+  <section>
+    <h2 class="panel-heading">Trending Tags</h2>
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
@@ -1661,22 +1567,56 @@
         <a class="post-tag btn btn-outline-primary" href="/tags/public-speaking/">Public Speaking</a>
       
     </div>
-  </div>
+  </section>
 
 
-    </div>
+            </div>
+
+            
+          </aside>
+        </div>
+
+        <div class="row">
+          <!-- tail -->
+          <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+
+            <!-- The Footer -->
+
+<footer
+  aria-label="Site Info"
+  class="
+    d-flex flex-column justify-content-center text-muted
+    flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3
+  "
+>
+  <p>©
+    <time>2026</time>
 
     
-  </div>
-</div>
+      <a href="https://github.com/Ginaroberg">Gina Roberg</a>.
+    
 
-<!-- tail -->
+    
+      <span
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="Except where otherwise noted, the blog posts on this site are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author."
+      >Some rights reserved.</span>
+    
+  </p>
 
+  <p>Using the <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener">Chirpy</a> theme for <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>.
+  </p>
+</footer>
+
+          </div>
+        </div>
 
         <!-- The Search results -->
 
 <div id="search-result-wrapper" class="d-flex justify-content-center unloaded">
-  <div class="col-11 post-content">
+  <div class="col-11 content">
     <div id="search-hints">
       <!-- The trending tags list -->
 
@@ -2045,8 +1985,8 @@
 
 
 
-  <div id="access-tags">
-    <div class="panel-heading">Trending Tags</div>
+  <section>
+    <h2 class="panel-heading">Trending Tags</h2>
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
@@ -2080,7 +2020,7 @@
         <a class="post-tag btn btn-outline-primary" href="/tags/public-speaking/">Public Speaking</a>
       
     </div>
-  </div>
+  </section>
 
 
     </div>
@@ -2089,64 +2029,45 @@
 </div>
 
       </div>
+
+      <aside aria-label="Scroll to Top">
+        <button id="back-to-top" type="button" class="btn btn-lg btn-box-shadow">
+          <i class="fas fa-angle-up"></i>
+        </button>
+      </aside>
     </div>
-
-    <!-- The Footer -->
-
-<footer>
-  <div class="container px-lg-4">
-    <div class="d-flex justify-content-center align-items-center text-muted mx-md-3">
-      <p>Using the <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> theme <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener">Chirpy</a>
-      </p>
-
-      <p>©
-        2026
-        <a href="https://github.com/Ginaroberg">Gina Roberg</a>.
-        
-          <span
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="Except where otherwise noted, the blog posts on this site are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author."
-          >Some rights reserved.</span>
-        
-      </p>
-    </div>
-  </div>
-</footer>
-
 
     <div id="mask"></div>
 
-    <button id="back-to-top" aria-label="back-to-top" class="btn btn-lg btn-box-shadow">
-      <i class="fas fa-angle-up"></i>
+    
+      <aside
+  id="notification"
+  class="toast"
+  role="alert"
+  aria-live="assertive"
+  aria-atomic="true"
+  data-bs-animation="true"
+  data-bs-autohide="false"
+>
+  <div class="toast-header">
+    <button
+      type="button"
+      class="btn-close ms-auto"
+      data-bs-dismiss="toast"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="toast-body text-center pt-0">
+    <p class="px-2 mb-3">A new version of content is available.</p>
+    <button type="button" class="btn btn-primary" aria-label="Update">
+      Update
     </button>
+  </div>
+</aside>
 
     
-      <div
-        id="notification"
-        class="toast"
-        role="alert"
-        aria-live="assertive"
-        aria-atomic="true"
-        data-bs-animation="true"
-        data-bs-autohide="false"
-      >
-        <div class="toast-header">
-          <button
-            type="button"
-            class="btn-close ms-auto"
-            data-bs-dismiss="toast"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="toast-body text-center pt-0">
-          <p class="px-2 mb-3">A new version of content is available.</p>
-          <button type="button" class="btn btn-primary" aria-label="Update">
-            Update
-          </button>
-        </div>
-      </div>
-    
+
+    <!-- JavaScripts -->
 
     <!-- JS selector for site. -->
 
@@ -2157,30 +2078,25 @@
 <!-- layout specified -->
 
 
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   
-    
-
-    
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
     
@@ -2231,9 +2147,16 @@
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.0/dist/jquery.min.js,npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/lazysizes@5.3.2/lazysizes.min.js,npm/dayjs@1.11.7/dayjs.min.js,npm/dayjs@1.11.7/locale/en.min.js,npm/dayjs@1.11.7/plugin/relativeTime.min.js,npm/dayjs@1.11.7/plugin/localizedFormat.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.1/dist/jquery.min.js,npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/dayjs@1.11.10/dayjs.min.js,npm/dayjs@1.11.10/locale/en.min.js,npm/dayjs@1.11.10/plugin/relativeTime.min.js,npm/dayjs@1.11.10/plugin/localizedFormat.min.js"></script>
 
 
 
@@ -2264,7 +2187,7 @@
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('search-results'),
     json: '/assets/js/data/search.json',
-    searchResultTemplate: '<div class="px-1 px-sm-2 px-lg-4 px-xl-0">  <a href="{url}">{title}</a>  <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">    {categories}    {tags}  </div>  <p>{snippet}</p></div>',
+    searchResultTemplate: '  <article class="px-1 px-sm-2 px-lg-4 px-xl-0">    <header>      <h2><a href="{url}">{title}</a></h2>      <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">        {categories}        {tags}      </div>    </header>    <p>{snippet}</p>  </article>',
     noResultsText: '<p class="mt-5"></p>',
     templateMiddleware: function(prop, value, template) {
       if (prop === 'categories') {
