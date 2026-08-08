@@ -13,8 +13,6 @@ const resource = [
     
         '/about/',
     
-        '/experience/',
-    
         '/tags/',
     
         '/projects/',
