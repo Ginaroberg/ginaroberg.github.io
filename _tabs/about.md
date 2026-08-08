@@ -6,14 +6,13 @@ permalink: /about/
 
 ---
 
+Hello, I'm Gina! I am currently an **AI & LLM Product Manager at JPMorgan Chase**, and a graduate of the **University of California, San Diego** with a B.S. in **Data Science**, specializing in AI and Machine Learning.
 
-Hello, I'm Gina! I am currently a third year undergraduate at the **University of California, San Diego**.  I am pursuing a Bachelors degree in **Data Science** and a minor in finance.
-
-Throughout my college career, I have developed strong interests in software development, machine learning, and in artificial intelligence.  I hope to gain experience as a software development or data science intern in the upcoming summers and quarters at UCSD.  In the meantime, you can find what I have been recently working on in <a href="{{ site.baseurl }}/projects/">Projects!</a>
+I'm always looking to grow as a problem solver and a product builder in the AI space. In the meantime, you can find what I've previously worked on in [Projects!](/projects/)
 
 ## Interests
 
-When I'm not 
+When I'm not working, you'll probably find me chasing a good cappuccino, out on a run or a trail, or somewhere new with a camera in hand.
 
 
 
